@@ -28115,9 +28115,7 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 </signal>
 <signal name="CAN1_TX_1">
 <contactref element="U301" pad="1"/>
-<contactref element="U$101" pad="72"/>
 <contactref element="U202" pad="7"/>
-<wire x1="111.7092" y1="49.2506" x2="111.7092" y2="49.2508" width="0.254" layer="16"/>
 <wire x1="111.7092" y1="49.2508" x2="112.95" y2="48.01" width="0.254" layer="16"/>
 <wire x1="112.95" y1="48.01" x2="112.95" y2="45.19" width="0.254" layer="16"/>
 <wire x1="112.95" y1="45.19" x2="114.35" y2="44.3" width="0.254" layer="16"/>
@@ -28162,7 +28160,6 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 </signal>
 <signal name="CAN1_RX_1">
 <contactref element="U301" pad="4"/>
-<contactref element="U$101" pad="70"/>
 <contactref element="U202" pad="6"/>
 <via x="123.28" y="44.08" extent="1-16" drill="0.2"/>
 <wire x1="123.28" y1="44.08" x2="123.28" y2="16.166" width="0.1524" layer="14"/>
@@ -28189,7 +28186,6 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <wire x1="123.28" y1="44.08" x2="123.28" y2="44.37" width="0.254" layer="16"/>
 <wire x1="123.28" y1="44.37" x2="119.95" y2="47.7" width="0.254" layer="16"/>
 <wire x1="119.95" y1="47.7" x2="115.7998" y2="47.7" width="0.254" layer="16"/>
-<wire x1="115.7998" y1="47.7" x2="114.2492" y2="49.2506" width="0.254" layer="16"/>
 </signal>
 <signal name="SPI_1_SCK">
 <contactref element="U401" pad="8"/>
