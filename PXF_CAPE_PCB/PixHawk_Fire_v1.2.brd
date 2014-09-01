@@ -26284,7 +26284,7 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <attribute name="LINK" value="http://invensense.com/mems/gyro/mpu6000.html" x="126.6792" y="27.2836" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="PARTNO" value="MPU-6000" x="126.6792" y="27.2836" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C409" library="pixhawk2" package="0603-CAP" value="2200p" x="127.816" y="22.6992" rot="MR180">
+<element name="C409" library="pixhawk2" package="0603-CAP" value="0u1" x="127.816" y="22.6992" rot="MR180">
 <attribute name="PARTNO" value="C0603C222J5RACTU" x="127.816" y="22.6992" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C412" library="pixhawk2" package="0603-CAP" value="2u2" x="124.992" y="23.0204" rot="MR0">
@@ -26300,7 +26300,7 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <element name="R507" library="pixhawk2" package="0402-RES" value="1M" x="144.5216" y="33.614" rot="MR0">
 <attribute name="PARTNO" value="MCR01MRTF1004" x="144.5216" y="33.614" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C414" library="pixhawk2" package="0402-CAP" value="2200p" x="124.9396" y="20.9496" rot="MR0">
+<element name="C414" library="pixhawk2" package="0402-CAP" value="0u1" x="124.9396" y="20.9496" rot="MR0">
 <attribute name="PARTNO" value="C0603C222J5RACTU" x="124.9396" y="20.9496" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C501" library="pixhawk2" package="0402-CAP" value="0u1" x="135.2948" y="21.0276" rot="MR180">

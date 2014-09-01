@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -28853,11 +28853,12 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <via x="115.5752" y="22.10721875" extent="1-16" drill="0.2"/>
 <wire x1="115.5752" y1="22.10721875" x2="115.570459375" y2="22.10721875" width="0.15" layer="14"/>
 <wire x1="115.570459375" y1="22.10721875" x2="115.570459375" y2="21.848646875" width="0.15" layer="14"/>
+<contactref element="U406" pad="23"/>
+<wire x1="110.084321875" y1="27.143096875" x2="110.084321875" y2="27.643096875" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="SPI_0_MOSI">
 <contactref element="U$101" pad="67"/>
 <contactref element="FPC_401" pad="8"/>
-<contactref element="U406" pad="23"/>
 <via x="115.334" y="16.51" extent="1-16" drill="0.2"/>
 <wire x1="115.334" y1="16.51" x2="115.214" y2="16.42" width="0.1524" layer="14"/>
 <wire x1="115.214" y1="16.42" x2="114.99" y2="16.664" width="0.1524" layer="14"/>
@@ -28881,13 +28882,14 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <wire x1="107.581671875" y1="27.601321875" x2="107.58673125" y2="27.60638125" width="0.1524" layer="14"/>
 <via x="107.58673125" y="27.60638125" extent="1-16" drill="0.2"/>
 <wire x1="107.58673125" y1="27.60638125" x2="110.04760625" y2="27.60638125" width="0.1524" layer="16"/>
-<wire x1="110.04760625" y1="27.60638125" x2="110.084321875" y2="27.643096875" width="0.254" layer="16"/>
 <wire x1="115.1082125" y1="22.95465625" x2="115.1082125" y2="22.927428125" width="0.1524" layer="14"/>
 <wire x1="115.1082125" y1="22.927428125" x2="115.107934375" y2="22.92715" width="0.1524" layer="14"/>
 <wire x1="118.2322" y1="13.4388" x2="118.11" y2="14.7088" width="0.15" layer="1"/>
 <wire x1="118.11" y1="14.7088" x2="118.11" y2="22.606" width="0.15" layer="1"/>
 <wire x1="118.11" y1="22.606" x2="115.1082125" y2="22.606" width="0.15" layer="1"/>
 <wire x1="115.1082125" y1="22.606" x2="115.1082125" y2="22.95465625" width="0.15" layer="1"/>
+<contactref element="U406" pad="24"/>
+<wire x1="110.04760625" y1="27.60638125" x2="110.084321875" y2="28.143096875" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CH_1">
 <contactref element="U$101" pad="28"/>
