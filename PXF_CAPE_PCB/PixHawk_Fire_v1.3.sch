@@ -51300,10 +51300,6 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <part name="U603" library="pixhawk2" deviceset="RGB-LED" device="6-PLCC" value="LRTB GFTG-T7AW-1+V7A7-29+R5T9-49-L">
 <attribute name="PARTNO" value="LRTB GFTG-T7AW-1+V7A7-29+R5T9-49-L"/>
 </part>
-<part name="C703" library="pixhawk2" deviceset="CAP" device="0402" value="0u1">
-<attribute name="PARTNO" value="CC0402ZRY5V7BB104"/>
-</part>
-<part name="GND18" library="pixhawk2" deviceset="GND" device=""/>
 <part name="U602" library="pixhawk2" deviceset="LT3469" device="" value="LT3469">
 <attribute name="PARTNO" value="LT3469ETS8"/>
 </part>
@@ -51332,9 +51328,6 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <part name="GND48" library="pixhawk2" deviceset="GND" device=""/>
 <part name="GND49" library="pixhawk2" deviceset="GND" device=""/>
 <part name="U701" library="pixhawk2" deviceset="TXS0108" device="QFN20">
-<attribute name="PARTNO" value="TXS0108ERGYR"/>
-</part>
-<part name="U702" library="pixhawk2" deviceset="TXS0108" device="QFN20">
 <attribute name="PARTNO" value="TXS0108ERGYR"/>
 </part>
 <part name="U703" library="pixhawk2" deviceset="74LVC2G240" device="-TSSOP-8" value="74LVC2G240">
@@ -51928,14 +51921,9 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <part name="R314" library="pixhawk2" deviceset="RESISTOR" device="0402-RES" value="10K">
 <attribute name="PARTNO" value="ERA-2AEB103X"/>
 </part>
-<part name="GND60" library="pixhawk2" deviceset="GND" device=""/>
-<part name="R718" library="pixhawk2" deviceset="RESISTOR" device="0402-RES" value="10K">
-<attribute name="PARTNO" value="ERA-2AEB103X"/>
-</part>
 <part name="R719" library="pixhawk2" deviceset="RESISTOR" device="0402-RES" value="10K">
 <attribute name="PARTNO" value="ERA-2AEB103X"/>
 </part>
-<part name="GND62" library="pixhawk2" deviceset="GND" device=""/>
 <part name="GND70" library="pixhawk2" deviceset="GND" device=""/>
 <part name="GND73" library="pixhawk2" deviceset="GND" device=""/>
 <part name="GND79" library="pixhawk2" deviceset="GND" device=""/>
@@ -56106,6 +56094,8 @@ please follow the spirit of OSHW, do not try and hide the fact that they are clo
 for use in a flying vehicle, ensure that you have complied with any requirements found on Ardupilot.com in preparing the Certificate of Authenticity that will reside on the SHA chip on the board.
 
 if you make a clone or derivative of this board, you must release your exact schematics and PCB doccuments, and include these notices on every page.</text>
+<text x="15.24" y="96.52" size="1.778" layer="97">Issue#3: As the voltage translator U702 is not use,
+ it has been erased</text>
 </plain>
 <instances>
 <instance part="GND64" gate="1" x="43.18" y="132.08" rot="MR0"/>
@@ -56114,15 +56104,8 @@ if you make a clone or derivative of this board, you must release your exact sch
 <instance part="C702" gate="G$1" x="33.02" y="17.78">
 <attribute name="PARTNO" x="33.02" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C703" gate="G$1" x="35.56" y="73.66">
-<attribute name="PARTNO" x="35.56" y="73.66" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="GND18" gate="1" x="78.74" y="76.2"/>
 <instance part="U701" gate="G$1" x="53.34" y="48.26">
 <attribute name="PARTNO" x="53.34" y="48.26" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="U702" gate="G$1" x="55.88" y="104.14">
-<attribute name="PARTNO" x="55.88" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U703" gate="G$1" x="58.42" y="149.86">
 <attribute name="PARTNO" x="58.42" y="149.86" size="1.778" layer="96" display="off"/>
@@ -56231,14 +56214,9 @@ if you make a clone or derivative of this board, you must release your exact sch
 <instance part="D705" gate="G$1" x="187.96" y="162.56">
 <attribute name="PARTNO" x="187.96" y="162.56" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND60" gate="1" x="35.56" y="66.04"/>
-<instance part="R718" gate="G$1" x="25.4" y="76.2" rot="R90">
-<attribute name="PARTNO" x="25.4" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
-</instance>
 <instance part="R719" gate="G$1" x="22.86" y="20.32" rot="R90">
 <attribute name="PARTNO" x="22.86" y="20.32" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="GND62" gate="1" x="25.4" y="66.04"/>
 <instance part="GND70" gate="1" x="22.86" y="10.16"/>
 <instance part="GND73" gate="1" x="33.02" y="10.16"/>
 <instance part="U$13" gate="G$1" x="149.86" y="7.62"/>
@@ -56257,12 +56235,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 <wire x1="33.02" y1="139.7" x2="33.02" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="137.16" x2="43.18" y2="137.16" width="0.1524" layer="91"/>
 <junction x="43.18" y="137.16"/>
-</segment>
-<segment>
-<pinref part="GND18" gate="1" pin="GND"/>
-<pinref part="U702" gate="G$1" pin="GND"/>
-<wire x1="78.74" y1="81.28" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="81.28" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND34" gate="1" pin="GND"/>
@@ -56369,11 +56341,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R718" gate="G$1" pin="1"/>
-<pinref part="GND62" gate="1" pin="GND"/>
-<wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R719" gate="G$1" pin="1"/>
 <pinref part="GND70" gate="1" pin="GND"/>
 <wire x1="22.86" y1="15.24" x2="22.86" y2="12.7" width="0.1524" layer="91"/>
@@ -56382,11 +56349,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 <pinref part="C702" gate="G$1" pin="2"/>
 <pinref part="GND73" gate="1" pin="GND"/>
 <wire x1="33.02" y1="15.24" x2="33.02" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C703" gate="G$1" pin="2"/>
-<pinref part="GND60" gate="1" pin="GND"/>
-<wire x1="35.56" y1="71.12" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BBB-VDD_3V3" class="1">
@@ -56411,26 +56373,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 <pinref part="R719" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<label x="30.48" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U702" gate="G$1" pin="VCCA"/>
-<wire x1="40.64" y1="109.22" x2="35.56" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="109.22" x2="35.56" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="C703" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="116.84" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U702" gate="G$1" pin="VCCB"/>
-<wire x1="68.58" y1="109.22" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="109.22" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U702" gate="G$1" pin="OE"/>
-<wire x1="40.64" y1="81.28" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="81.28" x2="35.56" y2="109.22" width="0.1524" layer="91"/>
-<junction x="35.56" y="109.22"/>
-<wire x1="35.56" y1="78.74" x2="35.56" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
-<junction x="35.56" y="81.28"/>
-<pinref part="R718" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <wire x1="45.72" y1="157.48" x2="33.02" y2="157.48" width="0.1524" layer="91"/>
 <label x="30.48" y="157.48" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="U703" gate="G$1" pin="VCC"/>
@@ -56442,11 +56384,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 </net>
 <net name="CH_12" class="0">
 <segment>
-<label x="30.48" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="30.48" y1="104.14" x2="40.64" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="U702" gate="G$1" pin="A1"/>
-</segment>
-<segment>
 <pinref part="R709" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="55.88" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
 <label x="114.3" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -56454,22 +56391,12 @@ if you make a clone or derivative of this board, you must release your exact sch
 </net>
 <net name="CH_11" class="0">
 <segment>
-<label x="30.48" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="30.48" y1="101.6" x2="40.64" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="U702" gate="G$1" pin="A2"/>
-</segment>
-<segment>
 <pinref part="R708" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="63.5" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
 <label x="114.3" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CH_10" class="0">
-<segment>
-<label x="30.48" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U702" gate="G$1" pin="A3"/>
-<wire x1="30.48" y1="99.06" x2="40.64" y2="99.06" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="R707" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
@@ -56581,11 +56508,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 </net>
 <net name="CH_7" class="0">
 <segment>
-<label x="30.48" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="30.48" y1="91.44" x2="40.64" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U702" gate="G$1" pin="A6"/>
-</segment>
-<segment>
 <pinref part="R704" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="93.98" x2="114.3" y2="93.98" width="0.1524" layer="91"/>
 <label x="114.3" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -56593,22 +56515,12 @@ if you make a clone or derivative of this board, you must release your exact sch
 </net>
 <net name="CH_6" class="0">
 <segment>
-<label x="30.48" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U702" gate="G$1" pin="A7"/>
-<wire x1="40.64" y1="88.9" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R703" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
 <label x="114.3" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CH_5" class="0">
-<segment>
-<label x="30.48" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U702" gate="G$1" pin="A8"/>
-<wire x1="30.48" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="R702" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="109.22" x2="114.3" y2="109.22" width="0.1524" layer="91"/>
@@ -56908,11 +56820,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 </net>
 <net name="CH_9" class="0">
 <segment>
-<pinref part="U702" gate="G$1" pin="A4"/>
-<wire x1="40.64" y1="96.52" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
-<label x="30.48" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R706" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="78.74" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
 <label x="114.3" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -56920,14 +56827,14 @@ if you make a clone or derivative of this board, you must release your exact sch
 </net>
 <net name="CH_8" class="0">
 <segment>
-<pinref part="U702" gate="G$1" pin="A5"/>
-<wire x1="40.64" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
-<label x="30.48" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R705" gate="G$1" pin="1"/>
 <wire x1="119.38" y1="86.36" x2="114.3" y2="86.36" width="0.1524" layer="91"/>
 <label x="114.3" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$62" class="1">
+<segment>
+<wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
