@@ -51681,7 +51681,7 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <part name="U403" library="pixhawk2" deviceset="MPU-6000" device="">
 <attribute name="PARTNO" value="MPU-6000"/>
 </part>
-<part name="C409" library="pixhawk2" deviceset="CAP" device="0603" value="0u1">
+<part name="C409" library="pixhawk2" deviceset="CAP" device="0603" value="2200p">
 <attribute name="PARTNO" value="C0603C222J5RACTU"/>
 </part>
 <part name="C412" library="pixhawk2" deviceset="CAP" device="0603" value="2u2">
@@ -51702,7 +51702,7 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <part name="R507" library="pixhawk2" deviceset="RESISTOR" device="0402-RES" value="1M">
 <attribute name="PARTNO" value="MCR01MRTF1004"/>
 </part>
-<part name="C414" library="pixhawk2" deviceset="CAP" device="0402" value="0u1">
+<part name="C414" library="pixhawk2" deviceset="CAP" device="0402" value="2200p">
 <attribute name="PARTNO" value="C0603C222J5RACTU"/>
 </part>
 <part name="GND81" library="pixhawk2" deviceset="GND" device=""/>
@@ -54868,12 +54868,6 @@ if you make a clone or derivative of this board, you must release your exact sch
 <wire x1="38.1" y1="127" x2="27.94" y2="127" width="0.1524" layer="91"/>
 <label x="27.94" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
-<segment>
-<pinref part="U406" gate="G$1" pin="SDO_XM"/>
-<wire x1="35.56" y1="116.84" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="124.46" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
-<label x="27.94" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
 </net>
 <net name="SPI_0_MOSI" class="0">
 <segment>
@@ -54882,10 +54876,10 @@ if you make a clone or derivative of this board, you must release your exact sch
 <label x="30.48" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U406" gate="G$1" pin="SDA"/>
-<wire x1="33.02" y1="116.84" x2="33.02" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="121.92" x2="27.94" y2="121.92" width="0.1524" layer="91"/>
-<label x="27.94" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U406" gate="G$1" pin="SDO_XM"/>
+<wire x1="35.56" y1="116.84" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="124.46" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
+<label x="27.94" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SPI_0_SCK" class="0">
