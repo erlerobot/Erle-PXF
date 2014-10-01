@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.5" unitdist="mil" unit="mil" style="lines" multiple="2" display="yes" altdistance="0.003125" altunitdist="mic" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Ground" color="2" fill="10" visible="no" active="yes"/>
 <layer number="3" name="Horizontal" color="13" fill="15" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -21,21 +21,21 @@
 <layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Vertical" color="14" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Vertical" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="15" name="Power" color="11" fill="15" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="13" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="13" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -179,12 +179,12 @@ proficnc.com
 <wire x1="139.3396" y1="23.52" x2="140.3396" y2="24.52" width="0.254" layer="21" curve="90"/>
 <wire x1="140.3396" y1="24.52" x2="140.3396" y2="29.27" width="0.254" layer="21"/>
 <wire x1="140.3396" y1="29.27" x2="139.3396" y2="30.27" width="0.254" layer="21" curve="90"/>
-<text x="130.81" y="39.116" size="1.6764" layer="21" font="vector" ratio="15" rot="R180">PixHawk-Fire v1.2</text>
+<text x="130.81" y="39.116" size="1.6764" layer="21" font="vector" ratio="15" rot="R180">PixHawk-Fire v1.3</text>
 <text x="75.2715" y="40.6029" size="0.762" layer="21" font="vector" ratio="15" rot="R270">USB_Host below</text>
 <text x="91.5492" y="27.906" size="0.762" layer="21" font="vector" ratio="15">SER1</text>
 <text x="94.3762" y="15.6638" size="0.762" layer="21" font="vector" ratio="15" rot="R180">SER2</text>
 <text x="99.568" y="33.274" size="0.762" layer="21" font="vector" ratio="15" rot="R90">Safety</text>
-<text x="155.0092" y="40.0256" size="0.762" layer="21" font="vector" ratio="15">Spek</text>
+<text x="155.0092" y="40.0256" size="0.762" layer="21" font="vector" ratio="15">Spektrum</text>
 <text x="76.5822" y="41.91735" size="0.762" layer="21" font="vector" ratio="15">PPM/S.Bus
 in</text>
 <text x="134.3352" y="21.778" size="0.762" layer="21" font="vector" ratio="15">CAN</text>
@@ -290,7 +290,7 @@ Aux</text>
 <text x="110.49" y="17.78" size="0.4064" layer="21" font="vector" ratio="15">Internal</text>
 <text x="110.49" y="15.494" size="0.4064" layer="21" font="vector" ratio="15">External</text>
 <text x="75.2715" y="22.8229" size="0.762" layer="21" font="vector" ratio="15" rot="R270">Micro SD card below</text>
-<text x="106.934" y="36.068" size="0.5" layer="21">(c)2014  PR,LM,3DR,AT,BN,AP</text>
+<text x="106.934" y="36.068" size="0.5" layer="21">(c)2014  Erle,PR,LM,3DR,AT,BN,AP</text>
 <text x="133.0232" y="37.6856" size="0.762" layer="21" font="vector" ratio="15">GND</text>
 <text x="132.5152" y="36.4156" size="0.762" layer="21" font="vector" ratio="15">I/O1</text>
 <text x="132.5152" y="35.1456" size="0.762" layer="21" font="vector" ratio="15">I/O2</text>
@@ -26349,8 +26349,9 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <element name="FPC_401" library="pixhawk2" package="51281-1094" value="CONN_FPC_10RA" x="121.7322" y="13.4388" rot="R180">
 <attribute name="PARTNO" value="0512811094" x="121.7322" y="13.4388" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U405" library="pixhawk2" package="MPU-6500" value="MPU-9250" x="119.1738" y="27.0556" rot="MR0">
-<attribute name="PARTNO" value="MPU-9250" x="119.1738" y="27.0556" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="U405" library="pixhawk2" package="MPU-6500" value="MPU-6500" x="119.1738" y="27.0556" rot="MR0">
+<attribute name="PARTNO" value="MPU-6500" x="119.1738" y="27.0556" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DATASHEET" value="http://www.invensense.com/mems/gyro/documents/PS-MPU-6500A-01.pdf" x="119.1738" y="27.0556" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C410" library="pixhawk2" package="0603-CAP" value="10n" x="120.4364" y="23.3324" rot="MR270">
 <attribute name="PARTNO" value="C0603C103J5RAC7411" x="120.4364" y="23.3324" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -26360,10 +26361,10 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <attribute name="BOM" value="EXCLUDE" x="122.3576" y="23.6452" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C415" library="pixhawk2" package="0402-CAP" value="u1F" x="122.1676" y="24.9208" rot="MR180">
-<attribute name="PARTNO" value="CC0402ZRY5V7BB104" x="122.1676" y="24.9208" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PARTNO" value="06034C104KAT2A" x="122.1676" y="24.9208" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C411" library="pixhawk2" package="0603-CAP" value="2200p" x="118.9984" y="22.7924" rot="MR270">
-<attribute name="PARTNO" value="C0603C222J5RACTU" x="118.9984" y="22.7924" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="C411" library="pixhawk2" package="0603-CAP" value="0.1uF" x="118.9984" y="22.7924" rot="MR270">
+<attribute name="PARTNO" value="06034C104KAT2A" x="118.9984" y="22.7924" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="JP401" library="pixhawk2" package="SJ_3_0603_PASTE1&amp;2" value="JUMPER-30603" x="109.474" y="17.526" rot="R270">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="109.474" y="17.526" size="1.778" layer="27" rot="R270" display="off"/>
