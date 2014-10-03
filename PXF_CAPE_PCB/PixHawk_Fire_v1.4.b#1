@@ -26306,7 +26306,7 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <attribute name="PARTNO" value="CC0402ZRY5V7BB104" x="122.1676" y="24.9208" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C411" library="pixhawk2" package="0603-CAP" value="0.1uF" x="118.9984" y="22.7924" rot="MR270">
-<attribute name="PARTNO" value="C0603C222J5RACTU" x="118.9984" y="22.7924" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="PARTNO" value="C0603C104K4RACTU" x="118.9984" y="22.7924" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="JP401" library="pixhawk2" package="SJ_3_0603_PASTE1&amp;2" value="JUMPER-30603" x="109.474" y="17.526" rot="R270">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="109.474" y="17.526" size="1.778" layer="27" rot="R270" display="off"/>
@@ -26318,14 +26318,14 @@ Source: &lt;a href="http://www.hirose.co.jp/cataloge_hp/e53600014.pdf"&gt;http:/
 <attribute name="PARTNO" value="C0603C103J5RAC7411" x="115.3794125" y="28.221590625" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C403" library="pixhawk2" package="0603-CAP" value="0.1uF" x="112.7075625" y="22.15485625" rot="MR90">
-<attribute name="PARTNO" value="C0603C222J5RACTU" x="112.7075625" y="22.15485625" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PARTNO" value="C0603C104K4RACTU" x="112.7075625" y="22.15485625" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C405" library="pixhawk2" package="0603-CAP" value="2u2F" x="111.366025" y="23.126109375" rot="MR90">
 <attribute name="PARTNO" value="" x="111.366025" y="23.126109375" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="BOM" value="EXCLUDE" x="111.366025" y="23.126109375" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C406" library="pixhawk2" package="0402-CAP" value="0.1uF" x="109.73915" y="23.148184375" rot="MR90">
-<attribute name="PARTNO" value="CC0402ZRY5V7BB104" x="109.73915" y="23.148184375" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="PARTNO" value="C0603C104K4RACTU" x="109.73915" y="23.148184375" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R205" library="pixhawk2" package="0402-RES" value="120R" x="122.0108" y="7.0126" rot="MR0">
 <attribute name="PARTNO" value="RC0402FR-07120RL" x="122.0108" y="7.0126" size="1.778" layer="28" rot="MR0" display="off"/>
