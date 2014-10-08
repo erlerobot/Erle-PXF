@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -28,13 +28,13 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -167,7 +167,7 @@ proficnc.com
 <wire x1="103.190078125" y1="26.707340625" x2="106.441278125" y2="27.113740625" width="0.508" layer="21"/>
 <wire x1="103.190078125" y1="27.520140625" x2="105.628478125" y2="27.113740625" width="0.508" layer="21"/>
 <wire x1="104.409278125" y1="27.113740625" x2="102.783678125" y2="27.113740625" width="0.508" layer="21"/>
-<text x="124.919371875" y="38.3320625" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">PixHawk-Fire v1.2</text>
+<text x="124.919371875" y="38.3320625" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">PixHawk-Fire v1.3.1</text>
 <circle x="117.9984" y="42.962" radius="1.5" width="0.254" layer="21"/>
 <circle x="113.1364" y="43.089" radius="1.5" width="0.254" layer="21"/>
 <circle x="108.1474" y="42.962" radius="1.5" width="0.254" layer="21"/>
@@ -179,7 +179,7 @@ proficnc.com
 <wire x1="139.3396" y1="23.52" x2="140.3396" y2="24.52" width="0.254" layer="21" curve="90"/>
 <wire x1="140.3396" y1="24.52" x2="140.3396" y2="29.27" width="0.254" layer="21"/>
 <wire x1="140.3396" y1="29.27" x2="139.3396" y2="30.27" width="0.254" layer="21" curve="90"/>
-<text x="130.81" y="39.116" size="1.6764" layer="21" font="vector" ratio="15" rot="R180">PixHawk-Fire v1.3</text>
+<text x="130.81" y="39.116" size="1.6764" layer="21" font="vector" ratio="15" rot="R180">PixHawk-Fire v1.3.1</text>
 <text x="75.2715" y="40.6029" size="0.762" layer="21" font="vector" ratio="15" rot="R270">USB_Host below</text>
 <text x="91.5492" y="27.906" size="0.762" layer="21" font="vector" ratio="15">SER1</text>
 <text x="94.3762" y="15.6638" size="0.762" layer="21" font="vector" ratio="15" rot="R180">SER2</text>
